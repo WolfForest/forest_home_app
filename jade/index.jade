@@ -1,0 +1,50 @@
+doctype html
+html
+  head
+    meta(http-equiv='Content-Security-Policy', content="default-src *; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;")
+    meta(name='format-detection', content='telephone=no')
+    meta(name='msapplication-tap-highlight', content='no')
+    meta(name='viewport', content='user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width')
+    link(rel='stylesheet', type='text/css', href='css/index.css')
+    link(rel='stylesheet', type='text/css', href='materialize/css/materialize.min.css')
+    title Hello World
+  body
+    .app
+        ul#tabs-swipe-demo.tabs
+            li.tab.col.s3
+                a.active(href='#test-swipe-1') Test 1
+            li.tab.col.s3
+                a(href='#test-swipe-2') Test 2
+            li.tab.col.s3
+                a(href='#test-swipe-3') Test 3
+        #tab-contents
+            #room_1.col.s12.tab-content
+                .row
+                    .col.s12.m7
+                        .card
+                            .card-content
+                                span.card-title Title
+                                p Lorem ipsum dolor sit amet consectetur adipisicing elit. In placeat fuga eius odio, explicabo assumenda, et ullam ipsam, quae voluptatum deleniti rem animi est debitis porro voluptatem quis quam officia!
+            #room_2.col.s12.tab-content
+                .row
+                    .col.s12.m7
+                        .card
+                            .card-content
+                                span.card-title Title 2
+                                p Lorem ipsum dolor sit amet consectetur adipisicing elit. In placeat fuga eius odio, explicabo assumenda, et ullam ipsam, quae voluptatum deleniti rem animi est debitis porro voluptatem quis quam officia!
+            #room_3.col.s12.tab-content
+                each item in [1,2,3,4,5,6,7,8,9]
+                    .row
+                        .col.s12.m7
+                            .card
+                                .card-content
+                                    span.card-title Title 3
+                                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. In placeat fuga eius odio, explicabo assumenda, et ullam ipsam, quae voluptatum deleniti rem animi est debitis porro voluptatem quis quam officia!
+        
+      
+                
+
+    script(type='text/javascript', src='cordova.js')
+    script(type='text/javascript', src='js/jquery.min.js')
+    script(type='text/javascript', src='materialize/js/materialize.min.js')
+    script(type='text/javascript', src='js/index.js')

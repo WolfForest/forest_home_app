@@ -1,0 +1,76 @@
+{
+  "_from": "git+https://github.com/DrMoriarty/cordova-plugin-jade.git",
+  "_id": "cordova-plugin-jade@0.0.1",
+  "_inBundle": false,
+  "_integrity": "sha1-GSrTrbEB5ZvxQ0D4ntXeqN7opA4=",
+  "_location": "/cordova-plugin-jade",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/DrMoriarty/cordova-plugin-jade",
+    "rawSpec": "https://github.com/DrMoriarty/cordova-plugin-jade",
+    "saveSpec": "git+https://github.com/DrMoriarty/cordova-plugin-jade.git",
+    "fetchSpec": "https://github.com/DrMoriarty/cordova-plugin-jade.git",
+    "gitCommittish": "master"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/DrMoriarty/cordova-plugin-jade.git#86ac11ef5c93bdde4d983d6c4886925f6dceb377",
+  "_spec": "https://github.com/DrMoriarty/cordova-plugin-jade",
+  "_where": "C:\\Users\\Forest\\Desktop\\forest_home_app",
+  "author": {
+    "name": "DrMoriarty"
+  },
+  "bugs": {
+    "url": "https://github.com/DrMoriarty/cordova-plugin-jade/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-jade",
+    "platforms": [
+      "firefoxos",
+      "tizen",
+      "android",
+      "amazon-fireos",
+      "ubuntu",
+      "ios",
+      "blackberry10",
+      "wp7",
+      "wp8",
+      "windows8",
+      "windows",
+      "browser",
+      "osx"
+    ]
+  },
+  "deprecated": false,
+  "description": "Jade Cordova Plugin",
+  "homepage": "https://github.com/DrMoriarty/cordova-plugin-jade#readme",
+  "keywords": [
+    "cordova",
+    "jade",
+    "ecosystem:cordova",
+    "cordova-firefoxos",
+    "cordova-tizen",
+    "cordova-android",
+    "cordova-amazon-fireos",
+    "cordova-ubuntu",
+    "cordova-ios",
+    "cordova-blackberry10",
+    "cordova-wp7",
+    "cordova-wp8",
+    "cordova-windows8",
+    "cordova-windows",
+    "cordova-browser",
+    "cordova-osx"
+  ],
+  "license": "MIT License",
+  "name": "cordova-plugin-jade",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DrMoriarty/cordova-plugin-jade.git"
+  },
+  "version": "0.0.1"
+}

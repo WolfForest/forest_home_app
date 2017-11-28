@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "Forest Home",
+  "short_name": "Forest Home",
+  "version": "ru.wolfforest.foresthome",
+  "description": "Home application",
+  "author": "Wolf Forest",
+  "icons": [],
+  "start_url": "index.html"
+}
